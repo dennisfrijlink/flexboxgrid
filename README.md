@@ -1,5 +1,5 @@
 
-# flexboxgrid
+# Flexboxgrid
 A simple 12 columns, responsive CSS grid based on flexbox and Bulma CSS
 
 Bulma: https://bulma.io/
