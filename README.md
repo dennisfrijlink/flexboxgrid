@@ -97,5 +97,40 @@ If you  _only_  want columns on  **desktop**  upwards, just use the  `is-desktop
   <div class="column">4</div>
 </div>
 ```
+
+## Multiline
+Whenever you want to start a new line, you can close a **columns** container and start a new one. But you can also add the **is-multiline** modifier and add more column elements than would fit in a single row.
+```html
+<div class="columns is-multiline is-mobile">
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column is-half">
+    <code>is-half</code>
+  </div>
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column is-one-quarter">
+    <code>is-one-quarter</code>
+  </div>
+  <div class="column">
+    Auto
+  </div>
+</div>
+```
+
 ## Examples
 Check [Bulma Columns](https://bulma.io/documentation/columns/) for some examples
