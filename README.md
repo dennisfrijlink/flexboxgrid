@@ -99,7 +99,7 @@ If you  _only_  want columns on  **desktop**  upwards, just use the  `is-desktop
 ```
 
 ## Multiline
-Whenever you want to start a new line, you can close a **columns** container and start a new one. But you can also add the **is-multiline** modifier and add more column elements than would fit in a single row.
+Whenever you want to start a new line, you can close a `columns` container and start a new one. But you can also add the `is-multiline` modifier and add more column elements than would fit in a single row.
 ```html
 <div class="columns is-multiline is-mobile">
   <div class="column is-one-quarter">
