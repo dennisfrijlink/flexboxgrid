@@ -1,10 +1,11 @@
+<p  align="center">
+<img  width="400"  src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/cf7fdbdd8d7c0e43278bce968de518b8387d62a4/images/Flexboxgrid.svg"  alt="logo of React Single Page Application Repository">
+</p>
+<p  align="center">
+A simple 12 columns, responsive CSS grid based on flexbox and the CSS library Bulma
+</p>
 
-# Flexboxgrid
-A simple 12 columns, responsive CSS grid based on flexbox and Bulma CSS
-
-Bulma: https://bulma.io/
-
-## Setup
+## ✨ Quick Start
 Download [flexboxgrid.css](css/flexboxgrid.css) and load the stylesheet
 
 ### Link import
@@ -20,7 +21,9 @@ Download [flexboxgrid.css](css/flexboxgrid.css) and load the stylesheet
 import  './flexboxgrid.css';
 ```
 
-## Usage
+For more examples check: https://bulma.io/documentation/columns/
+
+## ⚙️ Usage
 To split the view into columns, you just have to do two things:
 
  1. Add a ```columns``` container
@@ -76,7 +79,7 @@ As the grid can be divided into  **12**  columns, there are size classes for eac
 -   `is-11`
 -   `is-12`
 
-## Mobile columns
+## 📱 Mobile columns
 By default, columns are only activated from **tablet** onwards. This means columns are stacked on top of each other on **mobile**.  
 If you want columns to work on **mobile too**, just add the `is-mobile` modifier on the `columns` container:
 
@@ -131,6 +134,3 @@ Whenever you want to start a new line, you can close a `columns` container and s
   </div>
 </div>
 ```
-
-## Examples
-Check [Bulma Columns](https://bulma.io/documentation/columns/) for some examples
