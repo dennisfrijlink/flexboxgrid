@@ -1,5 +1,5 @@
 <p  align="center">
-<img  width="400"  src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/cf7fdbdd8d7c0e43278bce968de518b8387d62a4/images/Flexboxgrid.svg"  alt="logo of React Single Page Application Repository">
+<img  width="100%"  src="https://raw.githubusercontent.com/dennisfrijlink/development-utilities/cf7fdbdd8d7c0e43278bce968de518b8387d62a4/images/Flexboxgrid.svg"  alt="logo of React Single Page Application Repository">
 </p>
 <p  align="center">
 A simple 12 columns, responsive CSS grid based on flexbox and the CSS library Bulma
