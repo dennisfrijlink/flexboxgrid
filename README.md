@@ -23,6 +23,15 @@ import  './flexboxgrid.css';
 
 For more examples check: https://bulma.io/documentation/columns/
 
+## Key Features
+* Reusable Columns- Reusable columns to divide your web application
+* Sizes - Change the size per column
+* Responsiveness - Handle  **different**  column layouts for each  **breakpoint**
+* Nesting - A simple way to build  **responsive columns**
+* Gap - Customize the  **gap**  between the columns
+* Multiline - Make the columns multiline except for one row
+* Centering columns - Instead of using _empty columns_ you can use `.is-centered` on the parent `.columns` element
+
 ## ⚙️ Usage
 To split the view into columns, you just have to do two things:
 
@@ -134,3 +143,13 @@ Whenever you want to start a new line, you can close a `columns` container and s
   </div>
 </div>
 ```
+## PurgeCSS
+I recommend to use [PurgeCSS](https://purgecss.com/) by using the Flexbox Grid.  The `.css` file `flexboxgrid.css` has a lot of  css classes. PurgeCSS is a tool to remove unused CSS. So you optimize your application by purging (deleting) the classes you don't use.
+
+## You may also like...
+
+* [React SPA Boilerplate](https://github.com/dennisfrijlink/react-spa-boilerplate) - A boilerplate for single page applications based on the React.js Library
+* [Nuxt SPA Boilerplate](https://github.com/dennisfrijlink/nuxt-spa-boilerplate) - A boilerplate for single page applications based on the Vue.js Framework, Nuxt.js
+* [Nuxt SSG Boilerplate](https://github.com/dennisfrijlink/nuxt-ssg-boilerplate) - A boilerplate for static site generation based on the Vue.js Framework, Nuxt.js
+
+If you're looking for other reusable tools, check my repository [Development Utilities](https://github.com/dennisfrijlink/development-utilities). It's a collection of my favorite development utilities for (progressive) web and hybdrid apps.
